@@ -5,7 +5,7 @@ Scripts for simulated and automatic click biscuits, to play smart without forcin
 Using the browser console it is possible to insert two JavaScript functions that respectively simulate a perpetual click every specific interval on the main Biscuit and detect the appearance of the golden biscuit in order to click it automatically showing the bonus received in the console.
 
 ## How It Works
-The *startAutoClicker* function, based on the interval value in milliseconds (ms) passed, continuously clicks the element with the *bigCookie* id. Starting the *stopAutoClicker()* function terminates execution.
+The *startAutoClicker* function, based on the interval value in milliseconds passed (maximum 400ms due to browser limits), continuously clicks the element with the *bigCookie* id. Starting the *stopAutoClicker()* function terminates execution.
 The function *observeShimmers()* detects the addition to the document of elements associated with the golden button (*shimmer*) and simulates a click on it to obtain the bonus; at the same time the detail of the bonus received will be written to the console,  obtained from the element *particle0*.
 
 ## Issues
