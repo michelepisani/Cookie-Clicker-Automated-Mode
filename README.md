@@ -16,3 +16,9 @@ Automatically manage new clickable items, including *wrath* cookies and *Wrinkle
 
 ## How to test
 Open https://orteil.dashnet.org/cookieclicker/, paste the code into the console, click the enter key.
+
+## Bonus
+If you want to create a desktop autoclicker for Microsoft Windows (which does not require installation), you can open a notepad, enter the code in the file "click.ps1" and save the file with that name.
+Then from Windows Powershell go to the folder where the file resides, e.g. "cd Desktop" and run the following command to open the application:
+
+powershell -ExecutionPolicy Bypass -File .\click.ps1
